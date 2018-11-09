@@ -1,4 +1,4 @@
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox-sw.js");
+﻿importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.1.0/workbox-sw.js");
 
 var cacheStorageKey = 'minimal-pwa-1'
 
@@ -6,7 +6,12 @@ var cacheList=[
   '/',
   'index.html',
   'main.css',
-  'icon.png'
+  'launcher-icon-0-75x.png',
+  'launcher-icon-1x.png',
+  'launcher-icon-1-5x.png',
+  'launcher-icon-2x.png',
+  'launcher-icon-3x.png',
+  'launcher-icon-4x.png'
 ]
 
 self.addEventListener('install',e =>{
